@@ -6,12 +6,12 @@ gem 'rails', '4.0.1'
 # Use mysql as the database for Active Record
 group :development do
   gem 'mysql2'
-  gem 'rspec-rails', '2.0.1'
+  gem 'rspec-rails', '2.14.0'
 end
 
 group :test do
   gem 'mysql2'
-  gem 'rspec', '2.0.1'
+  gem 'rspec', '2.14.0'
   gem 'webrat', '0.7.1'
 end
 
