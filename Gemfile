@@ -13,6 +13,7 @@ group :test do
   gem 'mysql2'
   gem 'rspec', '2.14.0'
   gem 'webrat', '0.7.1'
+  gem 'spork', '0.9.2'
 end
 
 group :production do
