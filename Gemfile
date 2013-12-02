@@ -7,6 +7,7 @@ gem 'rails', '4.0.1'
 group :development do
   gem 'mysql2'
   gem 'rspec-rails', '2.14.0'
+  #gem 'jazz_hands'
 end
 
 group :test do
