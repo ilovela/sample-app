@@ -2,12 +2,19 @@ source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.1'
+gem 'gravatar_image_tag'
 
 # Use mysql as the database for Active Record
 group :development do
   gem 'mysql2'
   gem 'rspec-rails', '2.14.0'
+  gem 'better_errors'
+  gem 'binding_of_caller'
+  gem 'awesome_print', :github => 'michaeldv/awesome_print'
   #gem 'jazz_hands'
+  gem 'annotate'
+
+  gem 'devise'
 end
 
 group :test do
@@ -21,6 +28,8 @@ group :production do
   gem 'pg'
   gem 'rails_12factor'
 end
+
+gem 'protected_attributes'
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.0'
